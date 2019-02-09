@@ -1,0 +1,427 @@
+/*********************************************
+              UNIVERSAL STYLING 
+**********************************************/
+
+* {
+	/*border: solid thin purple;*/
+	font-family: 'Exo', sans-serif;
+	margin: auto 0;
+}
+
+h3 {
+	color: #6E15A1;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	
+}
+
+.grey-break {
+	height: 5px;
+	background-color: grey;
+}
+
+.jumbotron {
+	padding: 50px;
+}
+.jumbotron h1 {
+	padding: 25px;
+	font-size: 2em;
+}
+
+.purple-break {
+	height: 5px;
+	background-color: #6E15A1;
+}
+
+/*********************************************
+              TOPBAR STYLING 
+**********************************************/
+
+.topbar {
+	display: flex;
+	background-color: #59555b;
+	border-bottom: 1px solid #222;
+	justify-content: space-between;
+	padding: 0px 30px;
+}
+
+.topbar i, .topbar a {
+	color: white;
+	margin: 5px;
+	text-decoration: none;
+}
+
+.topbar-item {
+	display: flex;
+	align-self: center;
+}
+
+
+/*********************************************
+              NAVBAR STYLING 
+**********************************************/
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #E6E6FA;
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-end;
+/*	padding-right: 20px;*/
+	border-bottom: solid thin #6E15A1;
+}
+
+.logo {
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+.topnav .menu-item {
+	margin: auto 5px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 5px 7.5px;
+	text-decoration: none;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+	background-color: #6E15A1;
+	border-radius: 5px;
+	color: white;
+}
+
+.topnav a:not(.active) {
+	color: #6E15A1;
+	transition: .3s;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+	display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+	float: left;
+	overflow: hidden;
+
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+	font-size: 1em; 
+	border: none;
+	outline: none;
+	color: #6E15A1;
+	padding: 5px 7.5px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+	transition: .3s;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding: 10px 0px;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover:not(.logo), .dropdown:hover .dropbtn {
+	background-color: #6E15A1;
+	color: white;
+	border-radius: 5px;
+	opacity: .7;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn {
+	cursor: pointer;
+}
+/*********************************************
+              PHOTO STYLING 
+**********************************************/
+.photo {
+	/*display: flex; */
+	/*justify-content: center; */
+	/*align-items: center; */
+	overflow: hidden; 
+	margin: 0; 
+	width: 100vw; 
+	margin-left: calc(-50vw + 50%);
+	background-image: url('../images/adult-cold-compass-1125272.jpg');
+	height: 500px;
+	background-size: cover;
+}
+
+/*.photo img {
+	flex-shrink: 0; 
+	max-width: 100%; 
+	max-height: 100%;
+}*/
+
+.photo h3 {
+	position: absolute; 
+	bottom: 700px; 
+	right: 50px; 
+	background-color: rgba(230, 230, 250, .9); 
+	padding: 20px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	border-radius: 3px; 
+	margin-left: 50px;
+	opacity: 50s;
+}
+
+
+/*********************************************
+              CALL TO ACTION STYLING 
+**********************************************/
+
+.call-to-action-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: 350px;
+	grid-gap: 30px;
+	margin: 20px 0px;
+	min-height: 100vh;
+}
+
+.call-to-action-content * {
+	margin: 10px;
+}
+
+.call-to-action-content div {
+	align-self: center;
+	max-height: 290px;
+}
+
+.call-to-action-content button {
+	background-color: #6E15A1;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1.4em;
+	color: #fff;
+	border-radius: 5px;
+}
+.image-1 {
+	height: 300px; 
+	background: url('../images/action-plan-brainstorming-complex.jpg') no-repeat center; 
+	background-size: auto 100%;
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.image-2 {
+	height: 300px; 
+	background: url('../images/adults-analysis-brainstorming.jpg') no-repeat center; 
+	background-size: auto 100%;
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.image-3 {
+	height: 300px; 
+	background: url('../images/access-book-business.jpg') no-repeat center; 
+	background-size: auto 100%;
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.image-4 {
+	height: 300px; 
+	background: url('../images/cameras-composition-computer.jpg') no-repeat center; 
+	background-size: auto 100%;
+	filter: drop-shadow(5px 5px 5px #222);
+}
+#cta-1,
+#cta-2,
+#cta-3,
+#cta-4,
+#cta-5,
+#cta-6 {
+	display: none;
+}
+
+/*********************************************
+              SITE MAP STYLING 
+**********************************************/
+
+.bottom-site-map {
+	display: flex;
+	background-color: #E6E6FA;
+	justify-content: space-between;
+	padding: 40px 30px;
+	align-self: center;
+	color: #fff;
+	text-align: center;
+}
+
+.site-map {
+	color: #000; 
+	display: inline-flex; 
+	align-self: flex-start; 
+	margin: 2px; 
+	text-align: left; 
+	font-size: .8em;
+}
+
+.site-map div {
+	margin: 0;
+}
+
+.site-map ul {
+	flex-direction: column; 
+	margin: 0 10px; 
+	padding: 0; 
+	list-style-type: none;
+	align-self: flex-start
+}
+
+.site-map li {
+	padding: 5px;
+}
+
+.site-map a {
+	color: #000;
+}
+
+.site-map a:hover {
+	font-weight: bold;
+}
+
+/*********************************************
+              BOTTOM BAR STYLING 
+**********************************************/
+
+.bottom-bar {
+	display: flex;
+	background-color: #59555b;
+	justify-content: space-between;
+	padding: 40px 30px;
+	align-self: center;
+	color: #fff;
+	text-align: center;
+}
+
+.bottom-bar .bottom-nav {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+.bottom-bar .bottom-nav a {
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+
+/*********************************************
+              MEDIA QUERIES 
+**********************************************/
+@media screen and (max-width: 768px) {
+	.topnav {
+		display: block;
+	}
+	.topnav a:not(:first-child), .dropdown .dropbtn {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+		font-size: 2.5em;
+		margin: 5px;
+	}
+
+	.call-to-action-content {
+		grid-template-columns: 1fr;
+	}
+
+	.call-to-action-content div:nth-of-type(3) {
+	order: 4;
+	}
+	.call-to-action-content div:nth-of-type(4) {
+	order: 3;
+	}
+	.call-to-action-content div:nth-of-type(7) {
+	order: 8;
+	}
+	.call-to-action-content div:nth-of-type(8) {
+	order: 7;
+	}
+
+	.bottom-site-map,
+	.bottom-bar,
+	.site-map {
+		flex-direction: column;
+	}
+
+  	.bottom-bar p {
+  		margin-bottom: 20px;
+  	}
+
+	.site-map {
+		text-align: left;
+	}
+
+	.site-map div {
+		padding-bottom: 10px;
+		font-size: 1em;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.topnav.responsive {
+		position: relative;
+		padding-bottom: 20px;
+	}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.topnav.responsive .dropdown {float: none;}
+	.topnav.responsive .dropdown-content {position: relative;}
+	.topnav.responsive .dropdown .dropbtn {
+		display: block;
+		width: 100%;
+		text-align: left;
+		}
+}

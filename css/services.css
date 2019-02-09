@@ -1,0 +1,87 @@
+.services {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 40px;
+}
+.service {
+	width: 300px;
+	background-color: #E6E6FA;
+	justify-self: center;
+	padding: 40px;
+	margin: 0px;
+}
+.service img {
+	max-height: 100px;
+}
+.service h3 {
+	padding: 20px;
+}
+.service p {
+	margin-bottom: 10px;
+}
+.service a {
+	text-decoration: none;
+	color: #6E15A1;
+}
+.methodology-image1 {
+	height: auto;
+	width: 300px;
+	/*margin: 40px;*/
+}
+.methodology-image2 {
+	height: auto;
+	width: 300px;
+	/*margin: 40px;*/
+}
+.principals {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+}
+.principal {
+	display: inline-block;
+	vertical-align: top;
+}
+.principal .icon {
+	padding: 20px;
+}
+.data-tower {
+	display: grid;
+	grid-template-columns: 1fr;
+	border: thin #6E15A1 solid;
+	background-color: #E6E6FA;
+	margin: 30px;
+}
+.service-block {
+	border: thin #6E15A1 solid;
+	padding: 20px;
+}
+.process {
+  		display: grid;
+  		grid-template-columns: 1fr;
+  		margin:40px;
+  		grid-gap: 30px;
+}
+	.process ul {
+		list-style-type: none;
+	}
+.process li {
+		list-style-type: none;
+		padding: 30px;
+	}
+
+	.process li:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+	.pricing-heading {
+		background-color: #6E15A1;
+		color: #fff;
+	}
+	.btn {
+		background-color: #6E15A1;
+		color: #fff;
+		padding: 20px 40px;
+		border-radius: 10px;
+		text-decoration: none;
+		margin-bottom: 30px;
+	}

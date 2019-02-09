@@ -1,0 +1,88 @@
+@media (min-width: 320px) {
+	.accordion {
+		background-color: #eee;
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+		transition: 0.4s;
+	}
+
+	.active-accordion, .accordion:hover {
+		background-color: #ccc;
+	}
+
+	.accordion:after {
+	  content: '\002B';
+	  color: #777;
+	  font-weight: bold;
+	  float: right;
+	  margin-left: 5px;
+	}
+
+	.active-accordion:after {
+	  content: "\2212";
+	}
+
+	.panel {
+	  padding: 0 18px;
+	  background-color: white;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	}
+	.clients {
+		display: grid;
+		grid-template-columns: 1fr;
+		justify-content: space-evenly;
+		justify-items: center;
+		margin: 50px 0px;
+	}
+	.case-study,
+	.persona {
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		display: grid;
+		grid-auto-rows: minmax(min-content, max-content);
+		margin: 40px auto;
+		max-width: 700px;
+	}
+	.persona {
+		max-width: 300px;
+		margin: 20px;
+	}
+	.case-study:hover,
+	.persona:hover {
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	}
+	.objective:hover {
+		font-size: 1.25em;
+		cursor: pointer;
+	}
+	.case-study-logo {
+		justify-self: center;
+		padding: 20px;
+		height: 40px;
+	}
+	.persona-avatar {
+		justify-self: center;
+		height: auto;
+		width: 100%
+	}
+	.persona h2,
+	.persona h3,
+	.persona p, 
+	.persona ul {
+		margin: 20px;
+	}
+}
+@media (min-width: 768px) {
+	.clients {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
