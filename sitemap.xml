@@ -13,22 +13,27 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://xenodatapartners.com/about-us.html</loc>
-    <lastmod>2018-06-26T19:12:41+00:00</lastmod>
+    <loc>https://xenodatapartners.com/customers.html</loc>
+    <lastmod>2018-06-26T19:15:20+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://xenodatapartners.com/services.html</loc>
-    <lastmod>2018-06-26T19:12:43+00:00</lastmod>
+    <lastmod>2018-06-26T19:12:41+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://xenodatapartners.com/partners.html</loc>
     <lastmod>2018-06-26T19:12:43+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://xenodatapartners.com/about.html</loc>
+    <lastmod>2018-06-26T19:12:43+00:00</lastmod>
     <priority>0.60</priority>
   </url>
   <url>
-    <loc>https://xenodatapartners.com/contact-us.html</loc>
+    <loc>https://xenodatapartners.com/blog.html</loc>
     <lastmod>2018-06-26T19:15:20+00:00</lastmod>
     <priority>0.80</priority>
   </url>
