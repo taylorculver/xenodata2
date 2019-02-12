@@ -25,12 +25,14 @@
 }
 .methodology-image1 {
 	height: auto;
-	width: 300px;
-	/*margin: 40px;*/
+	width: 70%;
+	max-width: 500px;
+	margin: 40px;
 }
 .methodology-image2 {
 	height: auto;
 	width: 300px;
+	display: none;
 	/*margin: 40px;*/
 }
 .principals {
@@ -50,7 +52,8 @@
 	grid-template-columns: 1fr;
 	border: thin #6E15A1 solid;
 	background-color: #E6E6FA;
-	margin: 30px;
+	margin: 30px auto;
+	max-width: 60%;
 }
 .service-block {
 	border: thin #6E15A1 solid;
@@ -62,26 +65,40 @@
   		margin:40px;
   		grid-gap: 30px;
 }
-	.process ul {
+.process ul {
 		list-style-type: none;
-	}
+}
 .process li {
 		list-style-type: none;
 		padding: 30px;
 	}
 
-	.process li:nth-child(even) {
-		background-color: #f2f2f2;
+.process li:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.pricing-heading {
+	background-color: #6E15A1;
+	color: #fff;
+}
+.btn {
+	background-color: #6E15A1;
+	color: #fff;
+	padding: 20px 40px;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-bottom: 30px;
+}
+.methodology {
+	max-width: 350px;
+}
+.methodology ul {
+	padding: 0px;
+}
+@media (min-width: 728px) {
+	.principals {
+		grid-template-columns: 1fr 1fr;
 	}
-	.pricing-heading {
-		background-color: #6E15A1;
-		color: #fff;
+	.process {
+		grid-template-columns: 1fr 1fr 1fr;
 	}
-	.btn {
-		background-color: #6E15A1;
-		color: #fff;
-		padding: 20px 40px;
-		border-radius: 10px;
-		text-decoration: none;
-		margin-bottom: 30px;
-	}
+}

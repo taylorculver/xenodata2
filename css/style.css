@@ -187,6 +187,7 @@ h3 {
 	background-image: url('../images/adult-cold-compass-1125272.jpg');
 	height: 500px;
 	background-size: cover;
+	position: relative;
 }
 
 /*.photo img {
@@ -197,7 +198,7 @@ h3 {
 
 .photo h3 {
 	position: absolute; 
-	bottom: 700px; 
+	top: 75px; 
 	right: 50px; 
 	background-color: rgba(230, 230, 250, .9); 
 	padding: 20px; 
@@ -403,6 +404,9 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+	.photo {
+		height: 250px;
+	}
 	.topnav.responsive {
 		position: relative;
 		padding-bottom: 20px;
