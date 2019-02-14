@@ -35,6 +35,10 @@
 	display: none;
 	/*margin: 40px;*/
 }
+.pricing-heading h1,
+.pricing-heading span {
+	color: #fff;
+}
 .principals {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -98,7 +102,12 @@
 	.principals {
 		grid-template-columns: 1fr 1fr;
 	}
+	.services,
 	.process {
 		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.service {
+		width: 250px;
+		grid-gap: 10px;
 	}
 }
